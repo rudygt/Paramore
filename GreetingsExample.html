@@ -214,7 +214,7 @@ namespace Greetings.Adapters.ServiceHost
         return true;
         }
 
-        public bool Stop(HostControl hostControl)s
+        public bool Stop(HostControl hostControl)
         {
         _dispatcher.End().Wait();
         _dispatcher = null;
